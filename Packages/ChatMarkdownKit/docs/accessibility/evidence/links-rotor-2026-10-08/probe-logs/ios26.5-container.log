@@ -1,0 +1,40 @@
+2026-10-08 14:49:09.368 VOProbe[82886:37114229] PROBE mode=container
+objc[82886]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x108618310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x108670398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+2026-10-08 14:49:12.621 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityCommonStylingRotors imp=0x1952c1e78 image=UIAccessibility sym=-[NSObject(UIAccessibilityTextAttributeRotor) _accessibilityCommonStylingRotors]
+2026-10-08 14:49:12.621 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityContainerForAccumulatingCustomRotorItems imp=0x19527e13c image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityContainerForAccumulatingCustomRotorItems]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityCustomRotorResultHelper:array: imp=0x19529a5b8 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityCustomRotorResultHelper:array:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityCustomRotorTypeForString: imp=0x195284a84 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityCustomRotorTypeForString:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityInternalTextLinkCustomRotors imp=0x195281280 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityInternalTextLinkCustomRotors]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityMisspelledRotor imp=0x1952c1e70 image=UIAccessibility sym=-[NSObject(UIAccessibilityTextAttributeRotor) _accessibilityMisspelledRotor]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPerformPublicCustomRotorSearch:searchDirection:currentItem:honorsGroups: imp=0x1952847bc image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPerformPublicCustomRotorSearch:searchDirection:currentItem:honorsGroups:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPublicCustomRotorIdForSystemType: imp=0x195284e50 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPublicCustomRotorIdForSystemType:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPublicCustomRotorLinkCount: imp=0x195285388 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPublicCustomRotorLinkCount:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPublicCustomRotorName: imp=0x195285300 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPublicCustomRotorName:]
+2026-10-08 14:49:12.622 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPublicCustomRotorVisibleInTouchRotor: imp=0x1952852c0 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPublicCustomRotorVisibleInTouchRotor:]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityPublicCustomRotors imp=0x195285630 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityPublicCustomRotors]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityRetainsCustomRotorActionSetting imp=0x195292ab8 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityRetainsCustomRotorActionSetting]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityRotorTypeStringForCustomRotor: imp=0x1952848ac image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityRotorTypeStringForCustomRotor:]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityShouldIncludeMediaDescriptionsRotor imp=0x19528f598 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilityShouldIncludeMediaDescriptionsRotor]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilitySupportsMultipleCustomRotorTitles imp=0x19527fee8 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _accessibilitySupportsMultipleCustomRotorTitles]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _accessibilityTextStylingCustomRotor: imp=0x1952c30d4 image=UIAccessibility sym=-[NSObject(UIAccessibilityTextAttributeRotor) _accessibilityTextStylingCustomRotor:]
+2026-10-08 14:49:12.623 VOProbe[82886:37114229] PROBE METHOD NSObject _addPublicRotorsToArray:forElement: imp=0x1952853c8 image=UIAccessibility sym=-[NSObject(AXPrivCategory) _addPublicRotorsToArray:forElement:]
+2026-10-08 14:49:12.642 VOProbe[82886:37114229] PROBE METHOD NSObject setSwiftUI_accessibilityStoredLinkRotor: imp=0x1d27145c4 image=SwiftUI sym=-[NSObject(SwiftUIAccessibilityPrivate) setSwiftUI_accessibilityStoredLinkRotor:]
+2026-10-08 14:49:12.642 VOProbe[82886:37114229] PROBE METHOD NSObject swiftUI_accessibilityStoredLinkRotor imp=0x1d27145b8 image=SwiftUI sym=-[NSObject(SwiftUIAccessibilityPrivate) swiftUI_accessibilityStoredLinkRotor]
+2026-10-08 14:49:12.663 VOProbe[82886:37114229] PROBE METHOD NSObject accessibilityCustomRotors imp=0x185779f6c image=UIKitCore sym=-[NSObject(UIAccessibilityCustomRotor) accessibilityCustomRotors]
+2026-10-08 14:49:12.663 VOProbe[82886:37114229] PROBE METHOD NSObject setAccessibilityCustomRotors: imp=0x185779f5c image=UIKitCore sym=-[NSObject(UIAccessibilityCustomRotor) setAccessibilityCustomRotors:]
+2026-10-08 14:49:12.663 VOProbe[82886:37114229] PROBE METHOD NSObject setAccessibilityCustomRotorsBlock: imp=0x185779fdc image=UIKitCore sym=-[NSObject(UIAccessibilityCustomRotor) setAccessibilityCustomRotorsBlock:]
+2026-10-08 14:49:12.680 VOProbe[82886:37114229] PROBE METHOD NSObject rotorOwnerElement imp=0x1d41abf88 image=SwiftUICore sym=$sSo8NSObjectC7SwiftUIE17rotorOwnerElementAC021PlatformAccessibilityF8Protocol_ABXcvgTo
+2026-10-08 14:49:12.683 VOProbe[82886:37114229] PROBE ATTR2128 leaf=Paragraph one own=0 value=(
+    "543DD468-BF6F-478E-9555-D1F5CDE1507F"
+)
+2026-10-08 14:49:12.683 VOProbe[82886:37114229] PROBE ATTR2128 leaf=Example link own=0 value=(
+    "543DD468-BF6F-478E-9555-D1F5CDE1507F"
+)
+2026-10-08 14:49:12.683 VOProbe[82886:37114229] PROBE ATTR2128 leaf=Paragraph two own=0 value=(
+    "543DD468-BF6F-478E-9555-D1F5CDE1507F"
+)
+2026-10-08 14:49:12.683 VOProbe[82886:37114229] PROBE ATTR2128 leaf=Second link own=0 value=(
+    "543DD468-BF6F-478E-9555-D1F5CDE1507F"
+)
+2026-10-08 14:50:13.946 VOProbe[82886:37114229] PROBE SEARCH rotor=system-link dir=0 from=Paragraph two -> Example link
+local.example.voprobe: 82886

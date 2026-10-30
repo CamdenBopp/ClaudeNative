@@ -1,0 +1,40 @@
+github.com/blacktop/ipsw/pkg/dyld.(*CacheImage).GetMacho.func1(0x12efa3b41408?)
+	github.com/blacktop/ipsw/pkg/dyld/image.go:552 +0x40
+github.com/blacktop/go-macho/types.(*VMAddrConverter).Convert(...)
+	github.com/blacktop/go-macho@v1.1.292/types/types.go:413
+github.com/blacktop/go-macho.(*File).GetPointerAtAddress(0x12efa460e000, 0x1c56decf8)
+	github.com/blacktop/go-macho@v1.1.292/file.go:1746 +0x144
+github.com/blacktop/go-macho.(*File).objcProtocolSymbolicName(0x12efa460e000, 0x1c56decf8)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:2573 +0x1c4
+github.com/blacktop/go-macho.(*File).makeSymbolicMangledNameStringRef(0x12efa460e000, 0x1c5727c42)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:3238 +0x520
+github.com/blacktop/go-macho.(*File).readField(0x12efa460e000, {0x137d302f8, 0x12efa3b41408}, 0x1c574ad50)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:243 +0x444
+github.com/blacktop/go-macho.(*File).parseStructDescriptor(0x12efa460e000, {0x137d302f8, 0x12efa3b41408}, 0x12efa92b96e0)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:2128 +0xbd0
+github.com/blacktop/go-macho.(*File).readType(0x12efa460e000, {0x137d302f8, 0x12efa3b41408}, 0x1c5762c40)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:940 +0x5b0
+github.com/blacktop/go-macho.(*File).GetSwiftTypes(0x12efa460e000)
+	github.com/blacktop/go-macho@v1.1.292/swift.go:887 +0x7c8
+github.com/blacktop/go-macho.(*File).swiftFieldTypesForClass(0x12efa460e000, {0x12efa9243350, 0x2d})
+	github.com/blacktop/go-macho@v1.1.292/swift_strings.go:155 +0x2c
+github.com/blacktop/go-macho.(*File).readObjCClassRO(0x12efa460e000, 0x12efa92313b0, 0x1)
+	github.com/blacktop/go-macho@v1.1.292/objc.go:1916 +0x358
+github.com/blacktop/go-macho.(*File).GetObjCClass2(0x12efa460e000, 0x22e876350)
+	github.com/blacktop/go-macho@v1.1.292/objc.go:689 +0x3b4
+github.com/blacktop/go-macho.(*File).GetObjCClasses(0x12efa460e000)
+	github.com/blacktop/go-macho@v1.1.292/objc.go:366 +0x91c
+github.com/blacktop/ipsw/internal/commands/macho.(*ObjC).Dump(0x12efa3dbc6c0)
+	github.com/blacktop/ipsw/internal/commands/macho/objc.go:323 +0x59c
+github.com/blacktop/ipsw/cmd/ipsw/cmd.init.func33(0x12efa40021a0?, {0x12efa44bc5a0, 0x2, 0x5})
+	github.com/blacktop/ipsw/cmd/ipsw/cmd/class_dump.go:432 +0x11ac
+github.com/spf13/cobra.(*Command).execute(0x109d72668, {0x12efa46a8050, 0x5, 0x5})
+	github.com/spf13/cobra@v1.10.2/command.go:1015 +0x82c
+github.com/spf13/cobra.(*Command).ExecuteC(0x109d72940)
+	github.com/spf13/cobra@v1.10.2/command.go:1148 +0x340
+github.com/spf13/cobra.(*Command).ExecuteContextC(...)
+	github.com/spf13/cobra@v1.10.2/command.go:1080
+github.com/blacktop/ipsw/cmd/ipsw/cmd.Execute()
+	github.com/blacktop/ipsw/cmd/ipsw/cmd/root.go:88 +0x60
+main.main()
+	github.com/blacktop/ipsw/cmd/ipsw/main.go:27 +0x1c

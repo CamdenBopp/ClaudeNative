@@ -1,0 +1,37 @@
+2026-10-08 14:42:03.558 VOProbe[72750:37076445] PROBE mode=scan
+2026-10-08 14:42:04.026 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeTokens:nluResult:languageModel: | v48@0:8@16@24@32@40 | v48@0:8@"AFDictationConnection"16@"NSArray"24@"AFDictationNLUResult"32@"NSString"40
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didBeginLocalRecognitionWithModelInfo: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"NSString"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didDetectLanguage:confidenceScores: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"NSString"24@"NSDictionary"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didDetectLanguage:confidenceScores:isConfident: | v44@0:8@16@24@32B40 | v44@0:8@"AFDictationConnection"16@"NSString"24@"NSDictionary"32B40
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didFinishWritingAudioFile:error: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"NSFileHandle"24@"NSError"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didProcessAudioDuration: | v32@0:8@16d24 | v32@0:8@"AFDictationConnection"16d24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didReceiveSearchResults:recognizedText:stable:final: | v48@0:8@16@24@32B40B44 | v48@0:8@"AFDictationConnection"16@"NSArray"24@"NSString"32B40B44
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeFinalResultCandidatePackage: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"AFSpeechPackage"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeMultilingualSpeech: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"SASMultilingualSpeechRecognized"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePackage: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"AFSpeechPackage"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePackage:nluResult: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"AFSpeechPackage"24@"AFDictationNLUResult"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePartialPackage:nluResult:languageModel: | v48@0:8@16@24@32@40 | v48@0:8@"AFDictationConnection"16@"AFSpeechPackage"24@"AFDictationNLUResult"32@"NSString"40
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePartialResult: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"SASSpeechPartialResult"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePhrases:languageModel:correctionIdentifier: | v48@0:8@16@24@32@40 | v48@0:8@"AFDictationConnection"16@"NSArray"24@"NSString"32@40
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizePhrases:languageModel:correctionIdentifier:replacingPreviousPhrasesCount: | v56@0:8@16@24@32@40Q48 | v56@0:8@"AFDictationConnection"16@"NSArray"24@"NSString"32@40Q48
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeTokens:languageModel: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"NSArray"24@"NSString"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeTranscriptionObjects:languageModel: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"NSArray"24@"NSString"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:didRecognizeVoiceCommandCandidatePackage:nluResult: | v40@0:8@16@24@32 | v40@0:8@"AFDictationConnection"16@"AFSpeechPackage"24@"AFDictationNLUResult"32
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:languageDetectorFailedWithError: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"NSError"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:speechRecognitionDidFail: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"NSError"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:speechRecordingDidBeginWithOptions: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"AFDictationOptions"24
+2026-10-08 14:42:04.027 VOProbe[72750:37076445] PROBE AFD opt dictationConnection:speechRecordingDidFail: | v32@0:8@16@24 | v32@0:8@"AFDictationConnection"16@"NSError"24
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionDidPauseRecognition: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionSpeechRecognitionDidSucceed: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionSpeechRecordingDidBegin: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionSpeechRecordingDidCancel: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionSpeechRecordingDidEnd: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnectionSpeechRecordingWillBegin: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.028 VOProbe[72750:37076445] PROBE AFD opt dictationConnnectionDidChangeAvailability: | v24@0:8@16 | v24@0:8@"AFDictationConnection"16
+2026-10-08 14:42:04.033 VOProbe[72750:37076445] PROBE ENC UIKitCore protocols=0, protocols with extended types=4864, list=/Users/me/Library/Developer/CoreSimulator/Devices/A9453AD7-D252-4BBF-A7B7-988CE643076A/data/Containers/Data/Application/0D06F4F2-EEEA-470D-B22C-E7CFACC576B4/tmp/uikit-protocols.txt
+2026-10-08 14:42:04.033 VOProbe[72750:37076445] PROBE ENC scanned 5899 protocols, 0 encodings contain '!'
+2026-10-08 14:42:07.317 VOProbe[72750:37076445] PROBE ATTR2128 leaf=Paragraph one own=0 value=<no _iosAccessibilityAttributeValue:>
+2026-10-08 14:42:07.317 VOProbe[72750:37076445] PROBE ATTR2128 leaf=Example link own=0 value=<no _iosAccessibilityAttributeValue:>
+2026-10-08 14:42:07.317 VOProbe[72750:37076445] PROBE ATTR2128 leaf=Paragraph two own=0 value=<no _iosAccessibilityAttributeValue:>
+2026-10-08 14:42:07.317 VOProbe[72750:37076445] PROBE ATTR2128 leaf=Second link own=0 value=<no _iosAccessibilityAttributeValue:>
+local.example.voprobe: 72750

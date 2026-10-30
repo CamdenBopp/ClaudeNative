@@ -1,0 +1,22 @@
+4613-// 0x1d418
+4614:- (id)customPublicRotors;
+4615-// 0x1d4fc
+4616:- (void)updateCustomPublicRotors;
+4617-// 0x1d508
+4618:- (id)customPublicRotorNames;
+4619-// 0x1d724
+4620:- (id)customPublicRotorForSystemType:(id)type;
+--
+4623-// 0x1d8e4
+4624:- (long long)customPublicRotorLinkCountForRotor:(id)rotor;
+--
+6482-// 0x6ad10
+6483:- (id /* block */)_copyMatchBlockLink;
+--
+8387-// 0xb1604
+8388:- (_Bool)rotorTypeIsValid:(long long)valid eventOrigin:(long long)origin;
+--
+11962-// 0xf6f94
+11963:- (_Bool)rotorTypeIsValid:(long long)valid eventOrigin:(long long)origin;
+11964-// 0xf6fa0
+11965:- (id)customPublicRotors;

@@ -1,0 +1,7 @@
+{
+ "toolName": "ExitPlanMode",
+ "input": {
+  "plan": "# Plan: add hello.txt\n\n## Context\nAdd a file `hello.txt` containing the word `hello` to `/private/tmp/claude-501/cn-esc-test`. No such file exists there now (directory holds `readme.txt` and `notes/`). The directory is not a git repo.\n\n## Steps\n1. Write `/private/tmp/claude-501/cn-esc-test/hello.txt` with content `hello` (single line, trailing newline) using the Write tool.\n2. Verify with `cat /private/tmp/claude-501/cn-esc-test/hello.txt` and confirm the output is `hello`.\n",
+  "planFilePath": "/Users/me/.claude/plans/plan-how-to-add.md"
+ }
+}

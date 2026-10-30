@@ -1,0 +1,42 @@
+   • Parsing Cache             cache=/Library/Developer/CoreSimulator/Volumes/iOS_24A434/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Caches/com.apple.dyld/dyld_sim_shared_cache_arm64
+Flags = DyldCategoriesOptimized, OptimizedByDyld, HasCategoryClassProperties
+Swift = Swift 5 or later
+
+ObjC TOC
+--------
+  __objc_classlist  = 5711
+  __objc_nlclslist  = 0
+  __objc_catlist    = 109
+  __objc_nlcatlist  = 0
+  __objc_protolist  = 1702
+  __objc_classrefs  = 0
+  __objc_superrefs  = 3730
+  __objc_selrefs    = 76378
+
+panic: runtime error: index out of range [2] with length 2
+
+goroutine 1 [running]:
+github.com/blacktop/go-macho/types/objc.CutType({0x5d87b14f5f54?, 0x2})
+	github.com/blacktop/go-macho/types/objc/type_encoding.go:769 +0xd64
+github.com/blacktop/go-macho/types/objc.getArguments({0x5d87b14f5ed0?, 0xf?})
+	github.com/blacktop/go-macho/types/objc/type_encoding.go:829 +0x58
+github.com/blacktop/go-macho/types/objc.decodeMethodTypes({0x5d87a9dcab20, 0xf})
+	github.com/blacktop/go-macho/types/objc/type_encoding.go:129 +0x40
+github.com/blacktop/go-macho/types/objc.(*Protocol).dump(0x5d87b162b078, 0x1, 0x1)
+	github.com/blacktop/go-macho/types/objc/protocol.go:196 +0x47c
+github.com/blacktop/go-macho/types/objc.(*Protocol).WithAddrs(...)
+	github.com/blacktop/go-macho/types/objc/protocol.go:234
+github.com/blacktop/ipsw/internal/commands/macho.(*ObjC).Dump(0x5d878e895d40)
+	github.com/blacktop/ipsw/internal/commands/macho/objc.go:336 +0x4c8
+github.com/blacktop/ipsw/cmd/ipsw/cmd.init.func30(0x5d878ee50f00?, {0x5d878ecc85a0, 0x2, 0x105d0c0b8?})
+	github.com/blacktop/ipsw/cmd/ipsw/cmd/class_dump.go:302 +0xff0
+github.com/spf13/cobra.(*Command).execute(0x108127c60, {0x5d878ecc8550, 0x5, 0x5})
+	github.com/spf13/cobra@v1.10.2/command.go:1015 +0x814
+github.com/spf13/cobra.(*Command).ExecuteC(0x108127f40)
+	github.com/spf13/cobra@v1.10.2/command.go:1148 +0x350
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.10.2/command.go:1071
+github.com/blacktop/ipsw/cmd/ipsw/cmd.Execute()
+	github.com/blacktop/ipsw/cmd/ipsw/cmd/root.go:76 +0x24
+main.main()
+	github.com/blacktop/ipsw/cmd/ipsw/main.go:27 +0x1c

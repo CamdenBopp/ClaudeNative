@@ -1,0 +1,28 @@
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Demo build output (xcodebuild -derivedDataPath)
+Demo/build/
+Demo/build-device/
+
+# Instruments traces and their exports — large, binary, regenerable from the
+# demo app. The analyzer script (analyze_signposts.py) and the PERFORMANCE.md
+# summaries are the durable record; keep those.
+Demo/artifacts/*.trace/
+Demo/artifacts/*.xml
+
+# Reference clones for architecture study. Never committed: Telegram-iOS is
+# GPL-2.0 — we study its structure, we do not copy its code into this package.
+research/
+
+.DS_Store
+
+# VoiceOver probe build output (Tools/VoiceOverProbe/build.sh)
+Tools/VoiceOverProbe/build/

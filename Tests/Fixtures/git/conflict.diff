@@ -1,0 +1,11 @@
+diff --git a/nonewline.txt b/nonewline.txt
+index 93bddf8..793c8ad 100644
+--- a/nonewline.txt
++++ b/nonewline.txt
+@@ -1,2 +1,6 @@
+ first
++<<<<<<< HEAD
+ main
++=======
++side
++>>>>>>> side
